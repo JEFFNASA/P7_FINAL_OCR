@@ -1,0 +1,19 @@
+artifact_path: Class Weight - Regression logistique
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.0
+mlflow_version: 2.6.0
+model_uuid: 7d4dae865d354b27ad99654328c54d95
+run_id: 31e77989c1e14be98e6e4336346b900b
+utc_time_created: '2023-11-18 03:41:27.071366'
